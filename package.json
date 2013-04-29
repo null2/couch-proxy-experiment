@@ -1,7 +1,7 @@
 {
   "name": "couch-proxy-experiment",
   "description": "This is an experiment of how you can build a CouchDB proxy on top of restify.",
-  "version": "0.1.0-9",
+  "version": "0.1.0-10",
   "homepage": "https://github.com/null2/couch-proxy-experiment",
   "author": {
     "name": "Johannes J. Schmidt",
