@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var proxy = require('../lib/couch-proxy.js')
+
+var options = {
+  port: process.env['PORT'],
+  url: process.env['COUCH_URL'],
+  auth: {
+    user: process.env['COUCH_USER'],
+    pass: process.env['COUCH_PASS']
+  }
+};
+
+proxy.listen(options, function() {
+  console.log('listening...');
+});

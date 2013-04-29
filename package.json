@@ -1,0 +1,43 @@
+{
+  "name": "couch-proxy-experiment",
+  "description": "This is an experiment of how you can build a CouchDB proxy on top of restify.",
+  "version": "0.1.0-9",
+  "homepage": "https://github.com/null2/couch-proxy-experiment",
+  "author": {
+    "name": "Johannes J. Schmidt",
+    "email": "schmidt@netzmerk.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/null2/couch-proxy-experiment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/null2/couch-proxy-experiment/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/null2/couch-proxy-experiment/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/couch-proxy",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit",
+    "start": "node bin/server"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt": "~0.4.0"
+  },
+  "keywords": [],
+  "dependencies": {
+    "restify": "~2.4.1",
+    "request": "~2.20.0"
+  },
+  "subdomain": "null2-couch-proxy"
+}
